@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 60px;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+a{
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+a:hover{
+    background-color: aquamarine;
+}
+.city{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+.dropdown  li:hover .city{
+    display: block;
+}
+.chennai{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    transform: translate(114px);
+    margin-top: -70px;
+}
+.city li:hover .chennai{
+    display: block;
+
+}
+.page{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    transform: translate(102px);
+    margin-top: -70px;
+}
+.chennai li:hover .page{
+    display: block;
+}
